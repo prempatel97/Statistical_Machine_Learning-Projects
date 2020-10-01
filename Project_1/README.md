@@ -1,4 +1,4 @@
-<h1>Project 1 - Density Estimation and Classification
+<h1>Project 1 - Density Estimation and Classification</h1>
 
 1.	Introduction:
 In this project we were told to implement the Naïve Bayes and Logistic regression model using the MNIST dataset. There are in total 70,000 images of handwritten dataset, divided in 60,000 training images and 10,000 testing images. In this particular task we only use the dataset of digit 7 & 8.
