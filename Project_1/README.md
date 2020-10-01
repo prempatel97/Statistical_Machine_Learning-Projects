@@ -17,7 +17,7 @@ To apply Naïve Bayes model firstly the data is divided into four parts training
 •	Testing_Y represents the image labels used to verify that whether the model is able to predict the data given in Testing_X correctly or not.
 So now we take the mean and standard deviation of the entire training_x dataset. Then we divide the data into two sets, one set containing only digit 7 and another set containing digit 8. Now we calculate the gaussian naïve bayes, because it is a typical assumption if the values are continuous associated with each class are distributed according to normal distribution. We use this formula to predict class probability:
   
-<img src="https://github.com/prempatel97/Statistical_Machine_Learning-Projects/tree/master/imgs/pro_1_formula.png" width="350" height="200">
+[!Formula](imgs/pro_1_formula.png)
 
 We already knew the mean and standard deviation so implementing those values in the formula. We are applying the formula for each data set separately on digit 7 set and digit 8 set. Now we use testing data to test the data sets to predict whether that value will be classified in which dataset if probability of digit 7 greater than probability of digit 8 than it will append number 7 in the list or else number 8. This will continue for complete testing_x dataset and each data will be classified as 7 or 8 and will be stored in the list. After analysing and predicting the data we will now check the accuracy of the model by comparing the output predicted by the model that is stored in the list and the labels given in testing_y. Here, we will find two different types of accuracy:
 1)	Overall Accuracy: In this we will calculate the entire accuracy of the dataset i.e. total right answers predicted by the model/ total no of samples.
